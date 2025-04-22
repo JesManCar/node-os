@@ -1,4 +1,7 @@
 import os from "node:os";
+/*const os = require('node:os')
+console.log(os)*/
+
 
 function getDataNetwork(){
 
@@ -15,8 +18,8 @@ function getDataNetwork(){
         })
     };
 
-
     return net;
 }
 
+//module.exports = getDataNetwork;
 export { getDataNetwork };
